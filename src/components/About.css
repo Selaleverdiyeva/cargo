@@ -1,0 +1,88 @@
+.About{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.left-side{
+    padding-left: 70px;
+}
+.left-side h1{
+    color:#012030;
+    padding-top: 20px;
+}
+.left-side h5{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color:#575353
+}
+.left-side p{
+    font-size: 21px;
+   color:#45C4B0
+}
+.left-side small{
+    padding-left: 25px;
+    font-size: 16px;
+    color:#575353
+}
+.left-about{
+    padding-top: 20px;
+}
+.mission{
+    padding-top: 20px;
+}
+.right-side{
+  padding-top: 20px;
+  padding-right: 70px;
+}
+.right-side img{
+    width: 500px;
+   height: 400px;
+   padding-bottom: 40px;
+}
+
+
+@media(max-width:768px){
+   .About{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-right: 20px; */
+   } 
+   .left-side{
+    padding-left: 30px;
+}
+.right-side img{
+    width: 400px;
+   height: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.left-side h1{
+    font-size: 40px;
+}
+}
+@media(max-width:568px){
+    .left-side{
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+    .right-side img{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media(max-width:834px){
+    .About{
+        display: flex;
+        flex-wrap: wrap;
+        /* padding-right: 20px; */
+       } 
+       .left-side{
+        padding-left: 30px;
+    }
+    .right-side img{
+       padding-left: 50px;
+    }
+}
